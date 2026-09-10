@@ -72,7 +72,19 @@ az vm create \
 | `--generate-ssh-keys` | *(Flag)* | Automatically generates a new RSA public/private key pair in `~/.ssh/` if none exists, injecting the public key into `authorized_keys` for secure passwordless login. |
 | `--storage-sku` | `Standard_LRS` | Selects Standard HDD locally redundant storage for the managed OS disk to optimize cost. |
 | `--os-disk-size-gb` | `30` | Explicitly overrides the default disk size to allocate a 30 GB managed OS disk. |
-
+```
+{
+  "fqdns": "",
+  "id": "/subscriptions/f0c3bcdd-5ce2-4fa0-8cf3-41559747512b/resourceGroups/kml_rg_main-b550cd8a48ca4a97/providers/Microsoft.Compute/virtualMachines/devops-vm",
+  "location": "eastus",
+  "macAddress": "00-22-48-30-9D-34",
+  "powerState": "VM running",
+  "privateIpAddress": "10.0.0.4",
+  "publicIpAddress": "20.231.19.101",
+  "resourceGroup": "kml_rg_main-b550cd8a48ca4a97",
+  "zones": ""
+}
+```
 ---
 
 ## Step 3: Verify VM Provisioning and Power State
